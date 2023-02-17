@@ -1,0 +1,66 @@
+.card {
+  position: relative;
+  width: calc(100% - 2rem);
+  min-width: calc(100% - 2rem);
+  max-width: calc(100% - 2rem);
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 1rem;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  gap: 4rem;
+  margin-bottom: 5rem;
+}
+
+.card a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 23rem;
+  height: 19rem;
+  background-color: #333;
+  margin-top: 2rem;
+  border-radius: 1rem;
+  text-decoration: none;
+  list-style: none;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.card a :hover {
+  transform: scale(1.02);
+  transition: all 0.2s ease-in;
+}
+
+.card li img {
+  width: 20rem;
+  height: 12rem;
+  border-radius: 1rem;
+}
+
+.card div {
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.card h3,
+p {
+  padding: 0.2rem;
+  color: #f90;
+  font-weight: bold;
+}
+
+.message {
+  position: relative;
+  margin: auto;
+  width: calc(100% - 10rem);
+  padding: 2rem;
+  background-color: rgb(224, 66, 66);
+  color: #ece4e4;
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 1rem;
+}

@@ -1,0 +1,26 @@
+.header {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.list {
+  display: flex;
+  gap: 2rem;
+}
+
+.list a {
+  background-color: var(--color-gray-800);
+  color: var(--color-gray-200);
+  padding: 0.7rem 1.8rem;
+  border-radius: 1rem;
+  text-decoration: none;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.list a:hover,
+.list a:active,
+.list a.active {
+  background-color: var(--color-primary-900);
+  color: var(--color-gray-900);
+}
